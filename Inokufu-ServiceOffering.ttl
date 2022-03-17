@@ -1,0 +1,19 @@
+@prefix gax-participant: <http://w3id.org/gaia-x/participant#>.
+@prefix gax-service: <http://w3id.org/gaia-x/service#>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix gax-node: <http://w3id.org/gaia-x/node#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix dcat: <https://www.w3.org/ns/dcat#>.
+@prefix gax-resource: <http://w3id.org/gaia-x/resource#>.
+@prefix gax-core: <http://w3id.org/gaia-x/core#>.
+
+<https://inokufu.com/ServiceOffering-4vv7xrer52yy1zajras6tn> a gax-service:ServiceOffering;
+    gax-service:hasWebAddress "https://developer.inokufu.com"^^xsd:anyURI;
+    gax-service:hasServiceModel "InokufuServiceModel"^^xsd:string;
+    gax-service:hasProvisionType "InokufuProvisionType"^^xsd:string;
+    gax-service:providedBy "Inokufu SAS"^^xsd:string;
+    dcat:keyword "learning object"^^xsd:string, "learning resources"^^xsd:string, "mooc"^^xsd:string, "open educational resources (OER)"^^xsd:string;
+    dct:description "This API gives you access to an index of 3M+ learning objects from various providers such as YouTube, Coursera, edX, Openclassrooms, Apple podcasts, Google Play Store, Apple Books, Amazon Books, Instructables, Medium, etc."^^xsd:string;
+    gax-service:hasServiceTitle "Inokufu Learning Object API"^^xsd:string.

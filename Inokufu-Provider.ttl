@@ -1,0 +1,15 @@
+@prefix gax-participant: <http://w3id.org/gaia-x/participant#>.
+@prefix schema: <http://schema.org/>.
+@prefix sh: <http://www.w3.org/ns/shacl#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix vcard: <http://www.w3.org/2006/vcard/ns#>.
+@prefix gax-core: <http://w3id.org/gaia-x/core#>.
+
+<https://inokufu.com/Provider-8mf9qjwvl36uxmqcsrrqma> a gax-participant:Provider;
+    gax-participant:hasLegalRegistrationNumber "87952131800011"^^xsd:string;
+    gax-participant:hasSalesTaxID "FR36879521318"^^xsd:string;
+    gax-participant:hasLegallyBindingAddress "33 Quai D’arloing CS 10306  69337 Lyon cedex 09, France"^^xsd:string;
+    gax-participant:hasLegalForm "SAS"^^xsd:string;
+    gax-participant:hasWebAddress "https://www.inokufu.com"^^xsd:anyURI;
+    gax-participant:hasLegallyBindingName "Inokufu SAS"^^xsd:string;
+    gax-participant:hasJurisdiction "Global"^^xsd:string.
